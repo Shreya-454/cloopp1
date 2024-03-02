@@ -21,7 +21,7 @@ const Footer = () => {
                 <ul className="mb-0 ps-0">
                   <li className="mb-sm-3 mb-2">
                     <a
-                      href=""
+                      href="#Faq"
                       className="text-white font-outfit fs-16 lh-17 fw-normal  footunderline"
                     >
                       About Us
@@ -29,7 +29,7 @@ const Footer = () => {
                   </li>
                   <li className="mb-sm-3 mb-2">
                     <a
-                      href=""
+                      href="#create"
                       className="text-white font-outfit fs-16 lh-17 fw-normal footunderline"
                     >
                       How It Works
@@ -37,7 +37,7 @@ const Footer = () => {
                   </li>
                   <li className="mb-sm-3 mb-2">
                     <a
-                      href=""
+                      href="#recycling"
                       className="text-white font-outfit fs-16 lh-17 fw-normal footunderline"
                     >
                       For Brands
@@ -45,7 +45,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href=""
+                      href="#Faq"
                       className="text-white font-outfit fs-16 lh-17 fw-normal footunderline"
                     >
                       FAQs
@@ -57,7 +57,7 @@ const Footer = () => {
                 <ul className="mb-0 ps-0">
                   <li className="mb-sm-3 mb-2">
                     <a
-                      href=""
+                      href="#"
                       className="text-white font-outfit fs-16 lh-17 fw-normal footunderline"
                     >
                       Terms & Conditions
@@ -65,7 +65,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href=""
+                      href="#"
                       className="text-white font-outfit fs-16 lh-17 fw-normal footunderline"
                     >
                       Privacy Policy
