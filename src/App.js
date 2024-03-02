@@ -36,7 +36,7 @@ function App() {
         <Preloader/>
       </div>
     ) : (
-    <div>
+    <div className="overflow-x-clip">
      <Header/>
      <Creating/>
      <Recycling/>
