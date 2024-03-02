@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Header from "./components/Header";
+import Creating from "./components/Creating";
+import Recycling from "./components/Recycling";
+import Faq from "./components/Faq";
+import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
+import Preloader from "./components/Preloader";
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  const [data, setdata] = useState(false);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 4000);
+  }, []);
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: "linear",
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {data ? (
+      <div>
+        <Preloader/>
+      </div>
+    ) : (
+    <div>
+     <Header/>
+     <Creating/>
+     <Recycling/>
+     <Faq/>
+     <Subscribe/>
+     <Footer/>
+     <BackToTop/>
+     </div>
+    )}
     </div>
   );
 }
