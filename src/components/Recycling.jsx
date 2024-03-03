@@ -36,7 +36,7 @@ const Recycling = () => {
                   className="accordion-collapse bg-transparent collapse show"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body text-white font-outfit fs-16 fw-normal lh-24 opacity-90 pl-80 pt-0">
+                  <div className="accordion-body text-white font-outfit fs-16 fw-normal lh-24 opacity-90 pl-80 pt-0">
                     Cloopp partners with amazing brands to bring you coupons and
                     deals you simply can’t get anywhere else.
                   </div>
@@ -65,7 +65,7 @@ const Recycling = () => {
                   className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body text-white font-outfit fs-16 fw-normal lh-24 opacity-90 pl-80 pt-0">
+                  <div className="accordion-body text-white font-outfit fs-16 fw-normal lh-24 opacity-90 pl-80 pt-0">
                     Cloopp partners with amazing brands to bring you coupons and
                     deals you simply can’t get anywhere else.
                   </div>
