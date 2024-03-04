@@ -15,7 +15,7 @@ const Header = () => {
 <div className="container pt-md-5 pt-4">
     <div className="row align-items-center pb-lg-4 pt-md-4 pt-0">
         <div className="col-lg-7 pb-md-120 pb-5 "data-aos="fade-right">
-            <h1 className='text-white font-outfit fs-80 lh-100 mb-19 max-w-616 text-center text-lg-start mx-auto mx-lg-0'>Recycle. Reward. <span className='font-rainbow fs-64 lh-83'>with cloopp</span></h1>
+            <h1 className='text-white font-outfit fs-80 lh-100 mb-19 text-center text-lg-start'>Recycle. Reward. <span className='font-rainbow fs-64 lh-83 d-xl-block'>with cloopp</span></h1>
             <p className='text-white font-outfit fs-16 fw-normal lh-24 max-w-448 mb-38 text-center text-lg-start mx-auto mx-lg-0 opacity-90'>Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App.</p>
             <div className='d-flex justify-content-center d-sm-block'>
               <div className="d-sm-flex gap-3 justify-content-center justify-content-lg-start d-block ">

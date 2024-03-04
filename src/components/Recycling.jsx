@@ -5,10 +5,10 @@ import toplayer from '../assets/images/recyclelayer1.webp'
 import bottomlayer from '../assets/images/recyclelayer2.webp'
 const Recycling = () => {
   return (
-    <div className="bg-blue pt-271 position-relative overflow-x-clip z-1 mb--1 mt--1" id="recycling">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-xl-7 col-lg-6 pb-lg-200 ">
+    <div className="bg-blue pt-271  position-relative overflow-x-clip z-1 mb--1 mt--1" id="recycling">
+      <div className="container pb-lg-5">
+        <div className="row align-items-center pb-lg-5">
+          <div className="col-xl-7 col-lg-6 pb-md-5 ">
             <h2 className=" font-outfit fs-52 text-white lh-62 fw-semibold mb-40 text-center text-lg-start" data-aos="fade-right">
               Recycling Has Never Been This Easy and Rewarding
             </h2>
@@ -102,7 +102,7 @@ const Recycling = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6 pt-5 pt-lg-0" data-aos="zoom-in">
+          <div className="col-xl-5 col-lg-6" data-aos="zoom-in">
             <img src={scan} alt="scan" className="w-lg-100" />
           </div>
         </div>

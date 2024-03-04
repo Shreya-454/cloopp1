@@ -1,6 +1,6 @@
 import React from "react";
 import mobile from "../assets/images/mobile.webp";
-import ellipse from '../assets/images/Creatingellipse.webp'
+import ellipse from "../assets/images/Creatingellipse.webp";
 const myArray = [
   {
     num: 1,
@@ -16,45 +16,49 @@ const myArray = [
     num: 3,
     head: "Reap The Rewards",
     para: "Earn exclusive coupons, promo codes, and cashback from the hottest brands and track your environmental impact.",
-    class:"mb-0 ",
-    text:"max-w-480"
-
+    class: "mb-0 ",
+    text: "max-w-480",
   },
 ];
-const cards = myArray.map((myArray,i)=>(
-    <div className={`mb-4 ${myArray.class}`} key={i} data-aos="fade-left">
+const cards = myArray.map((myArray, i) => (
+  <div className={`mb-4 ${myArray.class}`} key={i} data-aos="fade-left">
     <div className="d-flex justify-content-center d-lg-block">
       <div className="circle1 d-flex justify-content-center align-items-center mb-20">
-      <span className="text-yellow fs-32 font-outfit fw-semibold lh-35 text-center">
-    {myArray.num}
-      </span>
-    </div>
+        <span className="text-yellow fs-32 font-outfit fw-semibold lh-35 text-center">
+          {myArray.num}
+        </span>
+      </div>
     </div>
     <h4 className=" font-outfit text-baseblack fs-24 fw-medium lh-30 mb-10 text-center text-lg-start">
-   {myArray.head}
+      {myArray.head}
     </h4>
-    <p className={`fs-16 text-baseblack font-outfit lh-24 fw-normal mb-0 max-w-501 text-center text-lg-start opacity-80 mx-auto mx-lg-0 ${myArray.text}`}>
-     {myArray.para}
+    <p
+      className={`fs-16 text-baseblack font-outfit lh-24 fw-normal mb-0 max-w-501 text-center text-lg-start opacity-80 mx-auto mx-lg-0 ${myArray.text}`}
+    >
+      {myArray.para}
     </p>
   </div>
-))
+));
 const Creating = () => {
   return (
-    <div className="bg-white position-relative z-1 pt-lg-4 pt-md-4 pt-3 pb-1" id="create">
+    <div className="bg-white position-relative z-1" id="create">
       <div className="container">
-        <h2 className="fs-52 text-baseblack max-w-675 text-center mx-auto font-outfit fw-semibold mb-5" data-aos="zoom-in">
-          Creating a Greener World Is Now As Easy As 1-2-3
+        <h2 className="fs-52 text-baseblack my-5  text-center font-outfit fw-semibold">
+          Creating a Greener World Is{" "}
+          <span className="d-block">Now As Easy As 1-2-3</span>
         </h2>
-        <div className="row">
-          <div className="col-lg-6 d-flex justify-content-center ">
-            <img src={mobile} alt="mobile" className="w-m-100" data-aos="fade-right" />
+        <div className="row justify-content-around">
+          <div className="col-lg-4 my-auto ">
+            <img src={mobile} alt="mobile" className="w-100" />
           </div>
-          <div className="col-lg-6">
-        {cards}
-          </div>
+          <div className="col-lg-6">{cards}</div>
         </div>
       </div>
-      <img src={ellipse} alt="e" className="creatingellipse d-none d-md-block" />
+      <img
+        src={ellipse}
+        alt="elp"
+        className="creatingellipse d-none d-md-block"
+      />
     </div>
   );
 };

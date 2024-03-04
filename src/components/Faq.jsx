@@ -2,7 +2,7 @@ import React from "react";
 import ellipse from '../assets/images/faqellipse.webp'
 const Faq = () => {
   return (
-    <div className="bg-white pt-36 pb-5 position-relative z-1" id="Faq">
+    <div className="bg-white pt-4 pb-lg-5 pb-4 position-relative z-1" id="Faq">
       <div className="container">
         <h2 className="fs-52 font-outfit text-baseblack text-center fw-semibold lh-62 mb-40" data-aos="zoom-in-up">
           Frequently Asked Questions

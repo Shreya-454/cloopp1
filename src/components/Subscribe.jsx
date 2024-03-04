@@ -5,7 +5,7 @@ import ellipse1 from '../assets/images/subscribeellipse1.webp'
 import ellipse2 from '../assets/images/subscribeellipse2.webp'
 const Subscribe = () => {
   return (
-    <div className=' bg-blue pt-263 pb-303 position-relative z-1 mb--1 mt--1' id='Subscribe'>
+    <div className=' bg-blue pt-263 pb-270 position-relative z-1 mb--1 mt--1' id='Subscribe'>
       <div className="container">
 <h2 className='text-white text-center font-outfit fs-52 lh-62 fw-semibold mb-3 ' data-aos="zoom-in-down">Subscribe Newsletter</h2>
 <p className='text-white font-outfit text-center fs-16 fw-normal lh-24 mb-40 opacity-90' data-aos="zoom-in-down">Subscribe to our newsletter for the latest news, offers, and eco-tips.</p>
