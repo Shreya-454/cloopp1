@@ -21,7 +21,7 @@ const Nav = () => {
               <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className=" text-white font-outfit fs-16 fw-normal lh-17 opacity-90 nav_line position-relative"
+                    className=" text-white font-outfit fs-16 fw-normal lh-17 nav_line position-relative head"
                     href="#create"
                   >
                How It Works
@@ -29,7 +29,7 @@ const Nav = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className=" text-white font-outfit fs-16 fw-normal lh-17 opacity-90 nav_line position-relative"
+                    className=" text-white font-outfit fs-16 fw-normal lh-17  nav_line position-relative head"
                     href="#recycling"
                   >
                  For Brands
@@ -37,7 +37,7 @@ const Nav = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className=" text-white font-outfit fs-16 fw-normal lh-17 opacity-90 nav_line position-relative"
+                    className=" text-white font-outfit fs-16 fw-normal lh-17  nav_line position-relative head"
                     href="#Faq"
                   >
                About Us
@@ -45,7 +45,7 @@ const Nav = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className=" text-white font-outfit fs-16 fw-normal lh-17 opacity-90 nav_line position-relative"
+                    className=" text-white font-outfit fs-16 fw-normal lh-17  nav_line position-relative head"
                     href="#Subscribe"
                   >
                Careers
