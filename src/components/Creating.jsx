@@ -40,7 +40,7 @@ const cards = myArray.map((myArray,i)=>(
 ))
 const Creating = () => {
   return (
-    <div className="bg-white position-relative z-1 pt-lg-4 pt-md-3 pt-1" id="create">
+    <div className="bg-white position-relative z-1 pt-lg-4 pt-md-4 pt-3 pb-1" id="create">
       <div className="container">
         <h2 className="fs-52 text-baseblack max-w-675 text-center mx-auto font-outfit fw-semibold mb-5" data-aos="zoom-in">
           Creating a Greener World Is Now As Easy As 1-2-3
