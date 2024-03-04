@@ -368,7 +368,10 @@
 }
 #Faq .accordion-button:not(.collapsed){
   box-shadow: none !important;
+  color: var(--bs-baseblack) !important;
 }
+
+
 .faqellipse{
   position: absolute;
   right: 0;
