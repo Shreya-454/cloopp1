@@ -492,11 +492,11 @@ form {
 .footunderline::before{
   content: '';
   position: absolute;
-  top: -2px;
+  top: -1px;
   background-color: var(--bs-white);
   left: 100%;
   right: 0;
-  height: 1px;
+  height: 2px;
   transition: all 500ms linear;
 }
 .footunderline:hover::before{
