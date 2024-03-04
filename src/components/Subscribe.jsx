@@ -9,7 +9,7 @@ const Subscribe = () => {
       <div className="container">
 <h2 className='text-white text-center font-outfit fs-52 lh-62 fw-semibold mb-3 ' data-aos="zoom-in-down">Subscribe Newsletter</h2>
 <p className='text-white font-outfit text-center fs-16 fw-normal lh-24 mb-40 opacity-90' data-aos="zoom-in-down">Subscribe to our newsletter for the latest news, offers, and eco-tips.</p>
-<form className='d-flex justify-content-between pl-20' data-aos="zoom-in-up">
+<form name='join' className='d-flex justify-content-between pl-20' data-aos="zoom-in-up">
     <input type="text" placeholder='Enter your email ' className='font-outfit text-white bg-transparent outline-none border-none text-start w-100' />
     <div className=' d-flex justify-content-end'><input type="button" value="Join" className='join-btn fs-16 font-outfit lh-24 fw-semibold ms-2  br-10 px-32 py-15' /></div>
 </form>
