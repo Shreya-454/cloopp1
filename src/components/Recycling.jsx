@@ -5,7 +5,7 @@ import toplayer from '../assets/images/recyclelayer1.webp'
 import bottomlayer from '../assets/images/recyclelayer2.webp'
 const Recycling = () => {
   return (
-    <div className="bg-blue pt-271 position-relative pb-5 overflow-x-clip z-1 mb--1 mt--1" id="recycling">
+    <div className="bg-blue pt-271 position-relative overflow-x-clip z-1 mb--1 mt--1" id="recycling">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-7 col-lg-6 pb-lg-200 ">
