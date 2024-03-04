@@ -354,6 +354,9 @@
 /* Faq */
 #Faq .accordion-button {
   font-size: var(--fs-md) !important;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+  
 }
 #Faq .accordion-button:focus {
   box-shadow: none !important;
@@ -369,6 +372,12 @@
 #Faq .accordion-button:not(.collapsed){
   box-shadow: none !important;
   color: var(--bs-baseblack) !important;
+  padding-bottom: 12px !important;
+}
+#Faq .accordion-body{
+  padding-top: 0 !important; 
+  padding-right: 16px !important;
+  padding-left: 16px !important;
 }
 
 
