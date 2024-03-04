@@ -432,7 +432,7 @@ form {
 }
 .subscribeellipse2{
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   right: 0;
   z-index: -1;
 }
@@ -453,7 +453,6 @@ form {
   height: 24px;
   border-radius: 4px;
   background-color: var(--bs-squarebg);
-;
 }
 .footline{
   width: 100%;
