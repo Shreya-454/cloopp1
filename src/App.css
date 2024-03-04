@@ -454,6 +454,11 @@ form {
   height: 24px;
   border-radius: 4px;
   background-color: var(--bs-squarebg);
+  border: 1px solid transparent;
+  transition: all 300ms linear;
+}
+.icons:hover .box{
+  border: 1px solid var(--bs-white);
 }
 .footline{
   width: 100%;
