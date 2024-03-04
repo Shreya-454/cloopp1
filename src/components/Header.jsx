@@ -13,7 +13,7 @@ const Header = () => {
       <Nav/>
       <div className="flex-grow-1 justify-content-center d-flex align-items-center">
 <div className="container pt-md-5 pt-4">
-    <div className="row align-items-center pb-4 pt-md-4 pt-0">
+    <div className="row align-items-center pb-lg-4 pt-md-4 pt-0">
         <div className="col-lg-7 pb-md-120 pb-5 "data-aos="fade-right">
             <h1 className='text-white font-outfit fs-80 lh-100 mb-19 max-w-616 text-center text-lg-start mx-auto mx-lg-0'>Recycle. Reward. <span className='font-rainbow fs-64 lh-83'>with cloopp</span></h1>
             <p className='text-white font-outfit fs-16 fw-normal lh-24 max-w-448 mb-38 text-center text-lg-start mx-auto mx-lg-0 opacity-90'>Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App.</p>
