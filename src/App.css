@@ -426,7 +426,7 @@ form {
   background-color: var(--bs-white);
   left: 100%;
   right: 0;
-  height: 2px;
+  height: 1px;
   transition: all 500ms linear;
 }
 .footunderline:hover::before {
