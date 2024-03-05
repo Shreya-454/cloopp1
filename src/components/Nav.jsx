@@ -9,7 +9,7 @@ const Nav = () => {
   }
   return (
     <>
-    <nav className="bg-nav py-13 position-relative z-3">
+    <nav className="bg-nav py-14 position-relative z-3">
           <div className="container">
             <div className=" d-flex align-items-center justify-content-between">
               <a href="#">

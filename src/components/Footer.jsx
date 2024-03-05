@@ -6,13 +6,15 @@ const Footer = () => {
     const year = Dates.getFullYear()
   return (
     <div className="bg-base pt-md-5 pt-3">
-      <div className="container pb-80 pb-md-5 pb-sm-4 pb-3">
+      <div className="container pb-md-5 pb-sm-4 pb-3">
         <div className="row pb-lg-5 pb-0">
           <div className="col-lg-5 mb-4 mb-sm-5 mb-lg-0">
             <img src={footlogo} alt="logo" className="mb-3" />
-            <p className="font-outfit text-white fs-16 lh-24 fw-normal max-w-345 opacity-80 mb-0">
-              Cloopp revolutionizes recycling for everyone. Join, earn, and
-              support sustainability.
+            <p className="font-outfit text-white fs-16 lh-24 fw-normal  opacity-80 mb-0">
+              Cloopp revolutionizes recycling for everyone. <span className="d-block">
+                Join, earn, and
+                support sustainability.
+              </span>
             </p>
           </div>
           <div className="col-lg-7">
@@ -75,10 +77,10 @@ const Footer = () => {
               </div>
               <div className="col-md-4 d-flex justify-content-lg-end">
                 <div className="pt-0">
-                  <p className="text-white font-outfit fs-16 lh-17 fw-normal opacity-80 mb-12">
+                  <p className="text-white font-outfit fs-16 lh-17 fw-normal opacity-80 pb-2 mb-0">
                     Follow Us{" "}
                   </p>
-                  <div className="d-flex gap-10">
+                  <div className="d-flex gap-10 mt-1">
                     <a href="https://www.instagram.com/" target="_blank" className="icons">
                       <div className="box d-flex justify-content-center align-items-center">
                         <Insta />

@@ -4,10 +4,10 @@ const Faq = () => {
   return (
     <div className="bg-white pt-4 pb-lg-5 pb-4 position-relative z-1" id="Faq">
       <div className="container">
-        <h2 className="fs-52 font-outfit text-baseblack text-center fw-semibold lh-62 mb-40" data-aos="zoom-in-up">
+        <h2 className="fs-52 font-outfit text-baseblack text-center fw-semibold lh-62 pb-4 mb-3" data-aos="zoom-in-up">
           Frequently Asked Questions
         </h2>
-        <div className="accordion accordion-flush max-w-957 mx-auto" id="accordionFlushExample">
+        <div className="accordion accordion-flush max-w-957 mx-auto " id="accordionFlushExample">
           <div className="accordion-item mb-md-3 mb-2"  data-aos="fade-right">
             <h2 className="accordion-header">
               <button
@@ -15,7 +15,7 @@ const Faq = () => {
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="flush-collapseOne"
               >
           What products can I scan?
@@ -23,7 +23,7 @@ const Faq = () => {
             </h2>
             <div
               id="flush-collapseOne"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse show"
               data-bs-parent="#accordionFlushExample"
             >
               <div className="accordion-body bg-transparent text-baseblack opacity-80 font-outfit fs-16 max-w-810">
@@ -92,7 +92,7 @@ const Faq = () => {
             </h2>
             <div
               id="flush-collapseFour"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse "
               data-bs-parent="#accordionFlushExample"
             >
               <div className="accordion-body bg-transparent text-baseblack opacity-80 font-outfit fs-16 max-w-810">

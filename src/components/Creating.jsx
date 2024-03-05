@@ -29,7 +29,7 @@ const cards = myArray.map((myArray, i) => (
         </span>
       </div>
     </div>
-    <h4 className=" font-outfit text-baseblack fs-24 fw-medium lh-30 mb-10 text-center text-lg-start">
+    <h4 className=" font-outfit text-baseblack fs-24 fw-medium lh-30 mb-2 text-center text-lg-start">
       {myArray.head}
     </h4>
     <p
