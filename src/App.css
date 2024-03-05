@@ -206,7 +206,9 @@
   padding-left: 0;
   z-index: 1;
 }
-.navline{display: none;}
+.navline {
+  display: none;
+}
 .head {
   opacity: 90%;
 }
@@ -429,7 +431,7 @@ form {
 .bounce {
   animation: bounce 3s linear infinite;
 }
-.w-lg-100{
+.w-lg-100 {
   width: 75% !important;
 }
 @keyframes bounce {
@@ -528,10 +530,10 @@ form {
   .pt-271 {
     padding-top: 271px;
   }
-  .w-lg-100{
+  .w-lg-100 {
     width: 100% !important;
   }
-  .transform-translateX-xl-20{
+  .transform-translateX-xl-20 {
     transform: translateX(10%);
   }
 }
@@ -588,8 +590,8 @@ form {
     overflow: hidden;
   }
 }
-@media (max-width:992px) {
-  .w-xl-100{
+@media (max-width: 992px) {
+  .w-xl-100 {
     width: 100% !important;
   }
 }
@@ -597,7 +599,7 @@ form {
   .container {
     max-width: 1140px !important;
   }
-  .transform-translateX-xl-20{
+  .transform-translateX-xl-20 {
     transform: translateX(20%);
   }
 }
