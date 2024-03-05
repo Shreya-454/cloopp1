@@ -15,8 +15,8 @@ const Header = () => {
 <div className="container pt-md-5 pt-4">
     <div className="row align-items-center pb-lg-4 pt-md-4 pt-0">
         <div className="col-lg-7 pb-md-120 pb-5 "data-aos="fade-right">
-            <h1 className='text-white font-outfit fs-80 lh-100 mb-19 text-center text-lg-start'>Recycle. Reward. <span className='font-rainbow fs-64 lh-83 d-xl-block'>with cloopp</span></h1>
-            <p className='text-white font-outfit fs-16 fw-normal lh-24 max-w-448 mb-38 text-center text-lg-start mx-auto mx-lg-0 opacity-90'>Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App.</p>
+            <h1 className='text-white font-outfit fs-80 lh-100 mb-20 text-center text-lg-start'>Recycle. Reward. <span className='font-rainbow fs-64 lh-83 d-xl-block'>with cloopp</span></h1>
+            <p className='text-white font-outfit fs-16 fw-normal lh-24 max-w-448 mb-40 text-center text-lg-start mx-auto mx-lg-0 opacity-90'>Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App.</p>
             <div className='d-flex justify-content-center d-sm-block'>
               <div className="d-sm-flex gap-3 justify-content-center justify-content-lg-start d-block ">
                   <div className='mb-4 mb-sm-0'data-aos="fade-up"><a href="https://www.apple.com/in/app-store/" target='_blank'><img src={appstore} alt="appstore" className='w-180 h-54' /></a></div>
@@ -25,7 +25,7 @@ const Header = () => {
             </div>
         </div>
         <div className="col-lg-5 d-flex align-items-end justify-content-center ">
-            <img src={headerimg} alt="img" className='w-lg-100' data-aos="fade-left" />
+            <img src={headerimg} alt="img" className='w-xl-100' data-aos="fade-left" />
         </div>
     </div>
 </div>

@@ -102,8 +102,8 @@ const Recycling = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-5 col-lg-6" data-aos="zoom-in">
-            <img src={scan} alt="scan" className="w-lg-100" />
+          <div className="col-xl-5 col-lg-6 d-flex justify-content-center" data-aos="zoom-in">
+            <img src={scan} alt="scan" className="w-xl-100" />
           </div>
         </div>
       </div>

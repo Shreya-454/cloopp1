@@ -48,8 +48,8 @@ const Creating = () => {
           <span className="d-block">Now As Easy As 1-2-3</span>
         </h2>
         <div className="row justify-content-around">
-          <div className="col-lg-4 my-auto ">
-            <img src={mobile} alt="mobile" className="w-100" />
+          <div className="col-lg-4 my-auto d-flex justify-content-center">
+            <img src={mobile} alt="mobile" className="w-lg-100" />
           </div>
           <div className="col-lg-6">{cards}</div>
         </div>
