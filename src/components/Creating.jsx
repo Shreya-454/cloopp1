@@ -43,7 +43,7 @@ const Creating = () => {
   return (
     <div className="bg-white position-relative z-1" id="create">
       <div className="container">
-        <h2 className="fs-52 text-baseblack my-5  text-center font-outfit fw-semibold">
+        <h2 className="fs-52 text-baseblack mt-5 mb-4 text-center font-outfit fw-semibold">
           Creating a Greener World Is{" "}
           <span className="d-block">Now As Easy As 1-2-3</span>
         </h2>
