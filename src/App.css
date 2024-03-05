@@ -334,9 +334,6 @@ form {
   margin-left: auto;
   border-radius: 10px;
 }
-.br-10 {
-  border-radius: 10px;
-}
 .subscribeellipse1 {
   position: absolute;
   top: -3%;
@@ -354,6 +351,7 @@ form {
   color: var(--bs-blue);
   border: 2px solid transparent;
   transition: all 300ms linear;
+  border-radius: 10px;
 }
 .join-btn:hover {
   background-color: var(--bs-blue);
