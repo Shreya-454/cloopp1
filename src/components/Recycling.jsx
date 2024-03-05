@@ -107,8 +107,8 @@ const Recycling = () => {
           </div>
         </div>
       </div>
-      <img src={toplayer} alt="layer" className="recycletoplayer" />
-      <img src={bottomlayer} alt="layer" className="recyclebottomlayer" />
+      <img src={toplayer} alt="layer" className="toplayer" />
+      <img src={bottomlayer} alt="layer" className="bottomlayer" />
     </div>
   );
 };

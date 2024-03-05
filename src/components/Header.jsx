@@ -33,7 +33,7 @@ const Header = () => {
       <img src={arrow} alt="arrow" className='headarrow d-none d-xl-block'/>
       <img src={star} alt="star" className='star' data-aos="zoom-in" />
       <img src={ellipse} alt="e" className='headellipse d-none d-sm-block' />
-      <img src={bottomlayer} alt="layer" className='headerlayer' />
+      <img src={bottomlayer} alt="layer" className='bottomlayer' />
     </div>
   )
 }

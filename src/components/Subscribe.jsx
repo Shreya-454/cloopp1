@@ -16,8 +16,8 @@ const Subscribe = () => {
       </div>
       <img src={ellipse1} alt="e" className='subscribeellipse1 d-none d-md-block' />
       <img src={ellipse2} alt="e"  className='subscribeellipse2 d-none d-md-block'/>
-      <img src={toplayer} alt="layer" className='subscribelayer1' />
-      <img src={bottomlayer} alt="layer" className='subscribelayer2' />
+      <img src={toplayer} alt="layer" className='toplayer' />
+      <img src={bottomlayer} alt="layer" className='bottomlayer' />
     
     </div>
   )
