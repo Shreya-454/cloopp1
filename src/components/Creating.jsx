@@ -23,13 +23,13 @@ const myArray = [
 const cards = myArray.map((myArray, i) => (
   <div className={`mb-4 ${myArray.class}`} key={i} data-aos="fade-left">
     <div className="d-flex justify-content-center d-lg-block">
-      <div className="circle1 d-flex justify-content-center align-items-center mb-20">
-        <span className="text-yellow fs-32 font-outfit fw-semibold lh-35 text-center">
+      <div className="circle1 d-flex justify-content-center align-items-center mb-3">
+        <span className="text-yellow fs-32 font-outfit fw-semibold lh-35 text-center ">
           {myArray.num}
         </span>
       </div>
     </div>
-    <h4 className=" font-outfit text-baseblack fs-24 fw-medium lh-30 mb-2 text-center text-lg-start">
+    <h4 className=" font-outfit text-baseblack fs-24 fw-medium lh-30 mb-2 text-center text-lg-start pt-1">
       {myArray.head}
     </h4>
     <p
